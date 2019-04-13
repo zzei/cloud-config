@@ -23,7 +23,7 @@ mybatis:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:7001/eureka
+      defaultZone: http://eureka7001:7001/eureka
       #defaultZone: http://www.eureka7001.com:7001/eureka,http://www.eureka7002.com:7002/eureka
   instance:
     instance-id: cloud-user-provide8002
@@ -39,7 +39,7 @@ server:
 spring:
   profiles: test
   application:
-    name: user-provide8002
+    name: user-provide8003
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/cloud
@@ -53,7 +53,7 @@ mybatis:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:7001/eureka
+      defaultZone: http://eureka7001:7001/eureka
       #defaultZone: http://www.eureka7001.com:7001/eureka,http://www.eureka7002.com:7002/eureka
   instance:
     instance-id: cloud-user-provide8003

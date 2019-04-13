@@ -10,8 +10,8 @@ spring:
   profiles: dev
 eureka:
   instance:
-    hostname: localhost
-    #hostname: eureka7001.com   #集群配置
+    #hostname: localhost
+    hostname: eureka7001.com   #集群配置
   client:
     register-with-eureka: false
     fetch-registry: false
@@ -25,8 +25,8 @@ spring:
   profiles: test
 eureka:
   instance:
-    hostname: localhost
-    #hostname: eureka7002.com   #集群配置
+    #hostname: localhost
+    hostname: eureka7002.com   #集群配置
   client:
     register-with-eureka: false
     fetch-registry: false
